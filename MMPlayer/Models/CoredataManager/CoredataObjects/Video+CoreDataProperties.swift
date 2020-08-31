@@ -2,7 +2,7 @@
 //  Video+CoreDataProperties.swift
 //  MMPlayer
 //
-//  Created by Shaktiprasad Mohanty on 26/08/20.
+//  Created by Shaktiprasad Mohanty on 29/08/20.
 //  Copyright © 2020 MonsterMind. All rights reserved.
 //
 //
@@ -26,7 +26,7 @@ extension Video {
     @NSManaged public var likes: Double
     @NSManaged public var name: String?
     @NSManaged public var played_duration: Double
-    @NSManaged public var video_url: String?
     @NSManaged public var source: String?
+    @NSManaged public var video_url: String?
 
 }

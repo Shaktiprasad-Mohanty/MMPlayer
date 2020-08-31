@@ -26,11 +26,11 @@
 		4C50495024FA556100B8372F /* MMPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C50494B24FA556100B8372F /* MMPlayerView.swift */; };
 		4C50495124FA556100B8372F /* MMPlayerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C50494C24FA556100B8372F /* MMPlayerSlider.swift */; };
 		4C50495224FA556100B8372F /* MMPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C50494D24FA556100B8372F /* MMPlayer.swift */; };
+		4C58466524FCBF91007BD970 /* Video+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C58466324FCBF91007BD970 /* Video+CoreDataClass.swift */; };
+		4C58466624FCBF91007BD970 /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C58466424FCBF91007BD970 /* Video+CoreDataProperties.swift */; };
 		4C6E467F24F644B400AA0DCD /* VideoDBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E467E24F644B400AA0DCD /* VideoDBM.swift */; };
 		4C6E468124F6486E00AA0DCD /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E468024F6486E00AA0DCD /* CommonUtility.swift */; };
 		4C6E468424F6739600AA0DCD /* DataExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E468324F6739600AA0DCD /* DataExtentions.swift */; };
-		4C6E468A24F6AE3800AA0DCD /* Video+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E468824F6AE3800AA0DCD /* Video+CoreDataClass.swift */; };
-		4C6E468B24F6AE3800AA0DCD /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E468924F6AE3800AA0DCD /* Video+CoreDataProperties.swift */; };
 		4C6E468D24F6B4E400AA0DCD /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E468C24F6B4E400AA0DCD /* LaunchViewController.swift */; };
 		4C6E469024F6D07800AA0DCD /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E468F24F6D07800AA0DCD /* VideoTableViewCell.swift */; };
 		4C6E469224F6D0B100AA0DCD /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E469124F6D0B100AA0DCD /* VideoCollectionViewCell.swift */; };
@@ -72,11 +72,11 @@
 		4C50494B24FA556100B8372F /* MMPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPlayerView.swift; sourceTree = "<group>"; };
 		4C50494C24FA556100B8372F /* MMPlayerSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPlayerSlider.swift; sourceTree = "<group>"; };
 		4C50494D24FA556100B8372F /* MMPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPlayer.swift; sourceTree = "<group>"; };
+		4C58466324FCBF91007BD970 /* Video+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C58466424FCBF91007BD970 /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4C6E467E24F644B400AA0DCD /* VideoDBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDBM.swift; sourceTree = "<group>"; };
 		4C6E468024F6486E00AA0DCD /* CommonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
 		4C6E468324F6739600AA0DCD /* DataExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtentions.swift; sourceTree = "<group>"; };
-		4C6E468824F6AE3800AA0DCD /* Video+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		4C6E468924F6AE3800AA0DCD /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		4C6E468C24F6B4E400AA0DCD /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		4C6E468F24F6D07800AA0DCD /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		4C6E469124F6D0B100AA0DCD /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -214,8 +214,8 @@
 		4C6E468724F6AD0900AA0DCD /* CoredataObjects */ = {
 			isa = PBXGroup;
 			children = (
-				4C6E468824F6AE3800AA0DCD /* Video+CoreDataClass.swift */,
-				4C6E468924F6AE3800AA0DCD /* Video+CoreDataProperties.swift */,
+				4C58466324FCBF91007BD970 /* Video+CoreDataClass.swift */,
+				4C58466424FCBF91007BD970 /* Video+CoreDataProperties.swift */,
 			);
 			path = CoredataObjects;
 			sourceTree = "<group>";
@@ -336,16 +336,16 @@
 				4C10763E24F808B500989267 /* CustomUI.swift in Sources */,
 				4C6E468424F6739600AA0DCD /* DataExtentions.swift in Sources */,
 				4C50494724FA554000B8372F /* MMUtility.swift in Sources */,
+				4C58466524FCBF91007BD970 /* Video+CoreDataClass.swift in Sources */,
 				4C6E469024F6D07800AA0DCD /* VideoTableViewCell.swift in Sources */,
 				4C50494824FA554000B8372F /* Extentions.swift in Sources */,
 				4C6E468124F6486E00AA0DCD /* CommonUtility.swift in Sources */,
 				4C2AD64524F4CFE600063915 /* MMPlayer.xcdatamodeld in Sources */,
 				4C6E467F24F644B400AA0DCD /* VideoDBM.swift in Sources */,
+				4C58466624FCBF91007BD970 /* Video+CoreDataProperties.swift in Sources */,
 				4C75342424FBD3AA00D70294 /* PotraitNavigationViewController.swift in Sources */,
 				4C75342224FB8D3600D70294 /* PIPManager.swift in Sources */,
 				4C50494F24FA556100B8372F /* MMPlayerLoadingIndicator.swift in Sources */,
-				4C6E468A24F6AE3800AA0DCD /* Video+CoreDataClass.swift in Sources */,
-				4C6E468B24F6AE3800AA0DCD /* Video+CoreDataProperties.swift in Sources */,
 				4C6E468D24F6B4E400AA0DCD /* LaunchViewController.swift in Sources */,
 				4C50495124FA556100B8372F /* MMPlayerSlider.swift in Sources */,
 				4C2AD63B24F4CFE600063915 /* AppDelegate.swift in Sources */,
